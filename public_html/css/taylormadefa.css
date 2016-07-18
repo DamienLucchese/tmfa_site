@@ -1,0 +1,738 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** BASE-BODY STYLES *****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.aptListings_BG {
+	background-color: #f7f7f7;
+}
+
+.boldenItUp {
+	font-weight: 600;
+}
+
+.container-fluid .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.navbar .container-fluid .navbar-header {
+	padding: 5px 0 50px 0;
+}
+
+.navSpace_Block {
+	height: 105px;
+}
+/***** /BASE-BODY STYLES ****/
+
+/******* TMFA STYLES ********/
+.tmfa_green_text {
+	color: #a9b149;
+}
+
+.tmfa_green_bg {
+	background-color: #a9b149;
+}
+
+.tmfa_btn {
+   border-top: 1px solid #ccd766;
+   background: #808a2a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a7b148), to(#808a2a));
+   background: -webkit-linear-gradient(top, #a7b148, #808a2a);
+   background: -moz-linear-gradient(top, #a7b148, #808a2a);
+   background: -ms-linear-gradient(top, #a7b148, #808a2a);
+   background: -o-linear-gradient(top, #a7b148, #808a2a);
+   padding: 13px 26px;
+   color: #ffffff;
+   font-size: 22px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.tmfa_btn:hover {
+   border-top-color: #808a2a;
+   background: #808a2a;
+   color: #f7fbd6;
+}
+
+.tmfa_btn:active {
+   border-top-color: #ccd766;
+   background: #ccd766;
+}
+
+.tmfa_link {
+	color: #a9b149;
+	text-decoration: none;
+}
+
+.tmfa_link:hover {
+	color: #bbc752;
+	text-decoration: none;
+}
+
+.dropdown .dropdown-menu li .tmfa_nav_links:hover {
+	background-color: #f5f7e5;
+	background-image: none;
+	color: #808a2a;
+}
+/******* /TMFA STYLES *******/
+
+/************ HOME **********/
+#tmfa_jumbotron {
+	background-image: url("/img/home/homeJUMBOpic.jpg");
+	background-repeat: no-repeat;
+        background-position: center 66%;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+        margin-bottom: 1%;
+        color: #fff;
+	text-shadow: 2px 2px 8px #000;
+}
+
+#home_main_guts {
+	text-align: center;
+	padding: 0;
+}
+
+.greenBlock_row {
+	background-color: #a9b149;
+	margin: 80px 0 60px 0;
+	padding: 10px 0 10px 0;
+}
+
+.greenBlock_box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.greenBlock_box_R {
+	border-left: solid 1px #fff
+}
+
+.white_title {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.white_text {
+	color: #fff;
+	font-weight: 400;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 0 0 0 8%;
+}
+
+.white_link {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.white_link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/************ /HOME *********/
+
+/****** APT LISTINGS ********/
+.apt_listings_top_icon {
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+	margin: 14px 0 30px 0;
+	color: #333;
+	-webkit-text-fill-color: #f7f7f7; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #333;
+}
+
+.apt_listings_top_2br_icon_L {
+	font-size: 80px;
+	text-align: right;
+	width: 48%;
+	margin: 14px 1% 30px 0;
+	color: #333;
+	-webkit-text-fill-color: #f7f7f7; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #333;
+}
+
+.apt_listings_top_2br_icon_R {
+	font-size: 80px;
+	text-align: left;
+	width: 48%;
+	margin: 14px 0 30px 0;
+	color: #333;
+	-webkit-text-fill-color: #f7f7f7; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #333;
+}
+
+.apt_listings_top_title {
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.apt_listings_top_text {
+	font-size: 20px;
+	text-align: center;
+	color: #333333;
+}
+
+.apt_listings_space {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.aptPreview_capsule {
+	background-color: #fff;
+	margin: 6px;
+	height: 532px;
+	width: 100%;
+	max-width: 548px;
+	display: inline-block;
+	position: relative;
+	float: none;
+	border: 1px solid #a9b149;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.prev_title {
+    margin-bottom: 4px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.prev_subtitle {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 20px;
+    color: #a9b149;
+}
+
+.prev_description {
+	margin-top: 2px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.prev_imgs {
+	width: 100%;
+	max-width: 548px;
+	height: 348px;
+}
+/****** /APT LISTINGS *******/
+
+/****** APT LISTING *********/
+#apt_imgs_modal .modal-header,
+#bookingInquiryModal .modal-header {
+    background-color: #a9b149;
+    color: #fff;
+}
+
+.apt_imgs_row {
+	text-align: center;
+}
+
+.apt_imgs {
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 4px;
+    border: 1px solid #909090;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.apt_imgs:hover {
+    border: 1px solid #a9b149;
+}
+
+#map {
+	width: 100%;
+	max-width: 1400px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid #a9b149;
+}
+/****** /APT LISTING ********/
+
+/**** TAYLOR-ed PACKAGES ****/
+#tmfa_jumbotron_tp {
+	background-image: url("/img/Esstentials_kitchen.jpg");
+	background-repeat: no-repeat;
+        background-position: center;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+}
+
+.tp_title {
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.tp_columns {
+	margin-top: 30px;
+}
+
+.tp_subtitles {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.tp_small_text {
+	font-size: 16px;
+}
+/**** /TAYLOR-ed PACKAGES ***/
+
+/****** TESTIMONIALS ********/
+#tmfa_jumbotron_t {
+	background-image: url("/img/f1bed_east_54th_st_12.jpg");
+	background-repeat: no-repeat;
+        background-position: center;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+}
+
+.testimonial_title {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+#main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 400px;
+}
+
+.testimonial_text {
+	font-size: 16px;
+}
+
+.tmfa_carousel_row .tmfaCarousel_control_L {
+	background-image:-webkit-linear-gradient(left,rgba(167,177,71,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image:-o-linear-gradient(left,rgba(167,177,71,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image:-webkit-gradient(linear,left top,right top,from(rgba(167,177,71,.5)),to(rgba(0,0,0,.0001)));
+	background-image:linear-gradient(to right,rgba(167,177,71,.5) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.tmfa_carousel_row .tmfaCarousel_control_R {
+	background-image:-webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(167,177,71,.5) 100%);
+	background-image:-o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(167,177,71,.5) 100%);
+	background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(167,177,71,.5)));
+	background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(167,177,71,.5) 100%);
+}
+/****** /TESTIMONIALS *******/
+
+/*********** FAQ ************/
+#tmfa_jumbotron_faq {
+	background-image: url("/img/Essentials_Bath.jpg");
+	background-repeat: no-repeat;
+        background-position: center;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+}
+
+.faq_text {
+	font-size: 20px;
+	margin-top: 12px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*********** /FAQ ***********/
+
+/*********** BIOS ***********/
+.bioBorder {
+	width: 100%;
+	height: 2px;
+	background-color: #a9b149;
+}
+/*********** /BIOS **********/
+
+/********* CONTACT **********/
+#contact_main_guts {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact_text {
+	font-size: 20px;
+	margin-top: 22px;
+	text-align: left;
+}
+
+#tmfa_contact_form {
+	text-align: left;
+}
+
+#tmfa_contact_form textarea:hover,
+#tmfa_contact_form input[type="text"]:hover,
+#tmfa_contact_form input[type="password"]:hover,
+#tmfa_contact_form input[type="datetime"]:hover,
+#tmfa_contact_form input[type="datetime-local"]:hover,
+#tmfa_contact_form input[type="date"]:hover,
+#tmfa_contact_form input[type="month"]:hover,
+#tmfa_contact_form input[type="time"]:hover,
+#tmfa_contact_form input[type="week"]:hover,
+#tmfa_contact_form input[type="number"]:hover,
+#tmfa_contact_form input[type="email"]:hover,
+#tmfa_contact_form input[type="url"]:hover,
+#tmfa_contact_form input[type="search"]:hover,
+#tmfa_contact_form input[type="tel"]:hover,
+#tmfa_contact_form input[type="color"]:hover,
+#tmfa_contact_form .uneditable-input:hover {   
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+#tmfa_contact_form textarea:focus,
+#tmfa_contact_form input[type="text"]:focus,
+#tmfa_contact_form input[type="password"]:focus,
+#tmfa_contact_form input[type="datetime"]:focus,
+#tmfa_contact_form input[type="datetime-local"]:focus,
+#tmfa_contact_form input[type="date"]:focus,
+#tmfa_contact_form input[type="month"]:focus,
+#tmfa_contact_form input[type="time"]:focus,
+#tmfa_contact_form input[type="week"]:focus,
+#tmfa_contact_form input[type="number"]:focus,
+#tmfa_contact_form input[type="email"]:focus,
+#tmfa_contact_form input[type="url"]:focus,
+#tmfa_contact_form input[type="search"]:focus,
+#tmfa_contact_form input[type="tel"]:focus,
+#tmfa_contact_form input[type="color"]:focus,
+#tmfa_contact_form .uneditable-input:focus {   
+  border-color: rgba(169, 177, 73, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(169, 177, 73, 0.6);
+  outline: 0 none;
+}
+
+.contact_form_button {
+	padding: 10px 16px;
+	font-size: 18px;
+}
+/********* /CONTACT *********/
+
+/* IN-LINE-WITH-YOUR-NEEDS **/
+#tmfa_jumbotron_il {
+	background-image: url("/img/taylor-ed-packages_header_img.jpg");
+	background-repeat: no-repeat;
+        background-position: center;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+}
+
+#in-line_main_guts {
+	text-align: center;
+}
+
+.in-line_text {
+	font-size: 20px;
+	margin-top: 12px;
+	text-align: left;
+}
+/* /IN-LINE-WITH-YOUR-NEEDS */
+
+/********* MODULES **********/
+#bottom_modules {
+	padding: 0;
+}
+
+.module_row {
+	margin-top: 40px;
+}
+
+.module_text {
+	font-size: 18px;
+	margin-top: 12px;
+}
+
+.lg_module_text {
+	font-size: 26px;
+	margin-top: 12px;
+}
+
+	/** SOCIAL MEDIA LINKS MODULE **/
+	.socialMedia_text {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 20px;
+	}
+	
+	.socialMedia_text .tmfa_link {
+		color: #ffffff;
+		font-size: 32px;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+	/** /SOCIAL MEDIA LINKS MODULE */
+
+	/** BOTTOM IMG BLOCK LINKS **/
+	.bottom_picture_block_space {
+		width: 32%;
+		display: inline-block;
+		position: relative;
+	}
+	
+	.bpbl_spacer {
+		width: 1%;
+		display: inline-block;
+	}
+	
+	.bottom_picture_block_box {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.bottom_picture_block_text {
+	   color: #fff;
+	   font-size: 3em;
+	   font-weight: 600;
+	   margin-top: 15%;
+	   text-align: center;
+	   text-shadow: 2px 2px 8px #000;
+	}
+	/** /BOTTOM IMG BLOCK LINKS */
+
+/********* /MODULES *********/
+
+/********* BLOG *************/
+#tmfa_jumbotron_blog {
+	background-image: url("/img/blogJUMBOpic.jpg");
+	background-repeat: no-repeat;
+        background-position: center;
+        height: 475px;
+        background-size: 100%;
+        width: 100%;
+}
+/********* /BLOG ************/
+
+/********* ART OF LIVING ****/
+.tmfa_art {
+	margin-top: 22px;
+}
+/********* /ART OF LIVING ***/
+
+/********* FOOTER ***********/
+#footer {
+	border-top: solid 2px #a9b149;
+	border-bottom: solid 2px #a9b149;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-top: 30px;
+	margin-bottom: 12px;
+	background-color: #fff;
+}
+
+.copy-right_row {
+	margin-top: 20px;
+}
+
+.copyright_text {
+	font-size: 10px;
+}
+/********* /FOOTER **********/
+
+/***** MEDIA QUERIES ********/
+@media screen and (max-width: 1600px) {
+    .bottom_picture_block_text {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bottom_picture_block_text {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.greenBlock_box_R {
+		border-top: solid 1px #fff;
+		border-left: none;
+	}
+	#map {
+		width: 80%;
+		max-width: 1400px;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+    .bottom_picture_block_text {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #tmfa_jumbotron,
+    #tmfa_jumbotron_tp,
+    #tmfa_jumbotron_t,
+    #tmfa_jumbotron_faq,
+    #tmfa_jumbotron_il,
+    #tmfa_jumbotron_blog {
+        height: 300px;
+    }
+
+    #tmfa_jumbotron h1 {
+    	font-size: 26px;
+    }
+
+    #tmfa_jumbotron h2 {
+    	font-size: 20px;
+    }
+
+    .bottom_picture_block_space {
+	width: 100%;
+    }
+    
+    .bottom_picture_block_text {
+        font-size: 3em;
+    }
+    
+    .tmfa_art {
+	margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bottom_picture_block_text {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navSpace_Block {
+        height: 84px;
+    }
+    
+    .navbar {
+	margin-bottom: 0;
+    }
+
+    .navbar .container-fluid .navbar-header {
+        padding: 5px 0 12px;
+    }
+
+    .navbar-brand {
+        padding: 4px;
+    }
+
+    .navbar-brand img {
+	width: 190px;
+    }
+
+    .navSpace_Block {
+        height: 68px;
+    }
+
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 700px;
+    }
+    
+    #tmfa_jumbotron,
+    #tmfa_jumbotron_tp,
+    #tmfa_jumbotron_t,
+    #tmfa_jumbotron_il,
+    #tmfa_jumbotron_faq {
+        height: 200px;
+    }
+
+    #tmfa_jumbotron h1 {
+    	font-size: 20px;
+    	margin-top: 0;
+    }
+
+    #tmfa_jumbotron h2 {
+    	font-size: 16px;
+    }
+    
+    #tmfa_jumbotron .tmfa_btn {
+    	font-size: 14px;
+    	padding: 6px 20px;
+    }
+
+    .prev_imgs {
+	widthy: 100%;
+	height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 830px;
+    }
+    .prev_imgs {
+	widthy: 100%;
+	height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bottom_picture_block_text {
+        font-size: 1.6em;
+    }
+    
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 900px;
+    }
+    
+    #tmfa_jumbotron h1 {
+    	font-size: 18px;
+    }
+
+    #tmfa_jumbotron h2 {
+    	font-size: 12px;
+    }
+    
+    .prev_imgs {
+	widthy: 100%;
+	height: 225px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #main_content_block .tmfa_carousel_row #carousel-example-generic {
+	height: 990px;
+    }
+    
+    .prev_imgs {
+	widthy: 100%;
+	height: 200px;
+    }
+}
+/***** /MEDIA QUERIES *******/

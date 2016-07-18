@@ -1,0 +1,10 @@
+RewriteEngine on  
+RewriteCond %{HTTP_HOST} !^www.taylormadefa.com$ [NC]
+RewriteRule ^(.*)$ http://www.taylormadefa.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^107\.180\.44\.168
+RewriteRule (.*) http://www.taylormadefa.com/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)([^/])$ http://%{HTTP_HOST}/$1$2/ [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^(.*)$ /index.php?section=$1 [L,QSA]
